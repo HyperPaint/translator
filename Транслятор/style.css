@@ -1,0 +1,101 @@
+.flex-vertical-center
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.flex-vertical-space
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.flex-vertical-center *, .flex-vertical-space *
+{
+	margin-bottom: 1px;
+}
+
+.flex-horizontal-center
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.flex-horizontal-space
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.flex-horizontal-center *, .flex-horizontal-space *
+{
+	margin-right: 1px;
+}
+
+p, a, h1, h2, h3, h4, h5, h6
+{
+	margin: 0px;
+	margin-block-start: 0.5em;
+	margin-block-end: 0.5em;
+	margin-inline-start: 0.5em;
+    margin-inline-end: 0.5em;
+}
+
+.big-vh
+{
+	height: 50vh;
+}
+
+.table
+{
+	width: 100%;
+}
+
+.table, .table tr, .table th, .table tr td
+{
+	border-collapse: collapse;
+	border: 1px solid grey;
+}
+
+.table th
+{
+	background-color: Khaki;
+}
+
+.table tr:nth-child(even)
+{
+	background-color: LightYellow;
+}
+
+.table tr:nth-child(odd)
+{
+	background-color: LemonChiffon;
+}
+
+.table tr:hover
+{
+	background-color: DarkKhaki;
+}
+
+input, textarea
+{
+	margin: 5px;
+	width: 100%;
+}
+
+textarea
+{
+	resize: none;
+}
